@@ -20,7 +20,7 @@ meta = read.csv("RTNC PMC Run1.csv", header=TRUE)
 
 str(meta)
 
-licor = read.table("Run 1.txt", header = TRUE,
+licor = read.table("Run1.txt", header = TRUE,
                    sep="\t", #tab-delim
                    skip = 1, #skip the first two lines
                    col.names = c("date", "time", "ppm", "temp","press",
